@@ -1,0 +1,17 @@
+nginx 常用命令
+
+tail -f /logname  查看实时日志
+tail -n 20 /logname  查看20 行日志
+
+grep关键字查找 查找
+grep '关键字' /filename  查看指定关键字
+
+查看服务器相关信息
+
+top
+
+查看服务器系统版本
+lsb_release -a
+
+查看linux 服务器内核
+uname -a
